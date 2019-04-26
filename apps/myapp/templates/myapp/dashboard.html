@@ -9,11 +9,15 @@
     
 </head>
 <body>
+    <nav class="navbar navbar-dark bg-primary">
+            <a class="navbar-brand" href="#">Wish List!</a>
+                <span>
+                    <a class="btn btn-primary btn-md" href="/logout" role="button">Log Out</a>
+                </span>
+            </nav>
     <div id='container'>
-        <div id='nav'>
-                <div class=logout><a href="/logout">Log Out</a></div>
-            <h1>Hello, {{ user.name }}!</h1><br></br>
-        </div>
+        <br>
+            <h1>Hello, {{ user.name }}!</h1><br>
         <div>
             <h3>Your Wish list:</h3>
             <table>

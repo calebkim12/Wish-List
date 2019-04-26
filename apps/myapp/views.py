@@ -45,7 +45,7 @@ def dashboard(request):
             'myitems': myitems,
             'otheritems': otheritems,
         }
-        return render(request, 'myApp/dashboard.html', context)
+        return render(request, 'myapp/dashboard.html', context)
         
 def make_item(request):
     return render(request, 'myapp/create.html')
